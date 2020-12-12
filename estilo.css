@@ -7,15 +7,12 @@
             border-collapse: collapse;
 
             background-color: #4699f7;
-
         }
-
         td {
 
             border: 1px solid black;
 
             text-align: center;
-
         }
 
 </style>
@@ -29,7 +26,7 @@
     background-position: bottom;  
 }
 #Remerosdelmundo {
-    background-color: rgb(219, 215, 215);
+    background-color: rgb(139, 47, 47);
     text-align: center;
     padding: 15px;
 }
