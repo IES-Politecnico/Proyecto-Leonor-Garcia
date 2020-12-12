@@ -15,40 +15,42 @@
 </head>
 
 <body>
-    <header id="inicio">
+    <header >
         <a href="#final">Ir la final de la pagina</a>
-        <figure>
-            <picture>
-                <source media="(max-width:799px)" srcset="./img/fotodeinicio-400.jpg">
+        <div class="box">
+            <h2 style="color: white;"><strong><u>Bienvenido a mi bloog</u></strong></h2>
+        </div>
 
-                <source media="(min-width:800px)" srcset="./img/fotodeinicio-800.jpg">
-
-                <img src="./img/fotodeinicio-800.jpg" alt="foto de inicio">
-
-            </picture>
-        </figure>
     </header>
-    <nav id="inicio">
-        <ul>
-            <!--Lista no ordenada-->
-            <div id="Noticias">
-                <li>
-                    <a href="./Articles/regatas.html"> Noticias </a>
-                </li>
-            </div>
-            <div id="Convocatorias">
-                <li>
-                    <a href="./Articles/convocatorias.html">Convocatorias </a>
-                </li>
-            </div>
-            <div id="Remo por el mundo">
-                <li>
-                    <a href="./Articles/remomundo.html"> Remo por el mundo</a>
-                </li>
-            </div>
-        </ul>
-    </nav>
 
+    <nav id="inicio">
+        <a class="boton" href="#regatas">Noticias de Regatas</a>
+        <a class="boton" href="#convocatorias">Convocatorias</a>
+        <a class="boton" href="#remomundo">Noticias de remo por el mundo</a>
+        <a class="boton" href="#remoindor">Noticias de remo indor</a>
+    </nav>
+    <main>
+        <section>
+            <h2 id="regatas">Noticias de regatas</h2>
+            <h2><a href="./Articles/10victoriadelbetis.html">10 victoria del betis</a></h2>
+            <h2><a href="./Articles/exitodelequipojuvenileneleuropeo.html">Exito del equipo juvenil en el cmapeonato del
+                    mundo</a></h2>
+        </section>
+        <section>
+            <h2 id="convocatorias">Convocatorias</h2>
+            <h2><a href="./Articles/conovocatoriaespañola.html">Convocatoria del equipo español</a></h2>
+            <h2><a href="./Articles/convocatoriadelaseleccionandaluza.html">Convocatoria de la seleccion andaluza</a>
+            </h2>
+        </section>
+        <section>
+            <h2 id="remomundo">Noticias de remo por el mundo</h2>
+            <h2><a href="./Articles/mejoresremerosdelmundo.html">Mejores remoeros del mundo</a></h2>
+        </section>
+        <section>
+            <h2 id="remoindor">Noticias de remo indor</h2>
+            <h2><a href="./Articles/remoindor.html">Que es el remo indor</a></h2>
+        </section>
+    </main>
 
 
 </body>
